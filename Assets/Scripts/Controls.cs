@@ -2,11 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//This ScriptableObject basically acts like a mini-Dictionary, made because Dictionaries aren't serializable in the Unity Inspector.
+
+//Create a new one for a new set of controls, and change it through the options menu.
+//When the player changes the Default set of controls for the first time, Duplicate it and change it out with a new custom set, and serialize it into savedata.
+
+
 /// <summary> A ScriptableObject container to store and change the game controls. 
 /// <para>Could be swapped out as profiles, maybe.</para>
 /// <para>This is mostly intended to be changed through the Options, but it could also be set through the Inspector.</para>
 /// </summary>
-[CreateAssetMenu(menuName ="Global Objects/Controls")]
+[CreateAssetMenu(menuName = "Global Objects/Controls")]
 public sealed class Controls : ScriptableObject
 {
 
