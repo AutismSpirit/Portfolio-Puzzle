@@ -71,7 +71,7 @@ ModelImporter:
       takeName: spin_main
       internalID: 0
       firstFrame: 296
-      lastFrame: 640
+      lastFrame: 526
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -79,7 +79,7 @@ ModelImporter:
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 1
-      loopBlend: 0
+      loopBlend: 1
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
@@ -100,13 +100,13 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
     fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
@@ -125,7 +125,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
-    normalSmoothAngle: 60
+    normalSmoothAngle: 30
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
