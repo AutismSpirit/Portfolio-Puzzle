@@ -1,5 +1,5 @@
 # Portfolio-Puzzle
-A puzzle game prototype made for my professional portfolio.
+A puzzle game prototype made for work. (and showing off)
 
 # Completed:
 Movement
