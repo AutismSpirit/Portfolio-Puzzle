@@ -5,6 +5,7 @@ using UnityEditor;
 
 public class ControlsManagerWindow : EditorWindow
 {
+    //control file!
     bool showControls;
     bool showKeys;
     bool showAxes;
